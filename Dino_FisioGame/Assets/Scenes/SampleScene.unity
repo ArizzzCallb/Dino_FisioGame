@@ -420,6 +420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f96bfa3bd03d84e42b7956c977d81c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 702165627}
+  forcaPulo: 500
 --- !u!1 &2082319541
 GameObject:
   m_ObjectHideFlags: 0

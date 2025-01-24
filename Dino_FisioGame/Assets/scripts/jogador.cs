@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class jogador : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Rigidbody2D rb;
+    public float forcaPulo;
     void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Pular();
+
+        }
+        void Pular()
+        {
+            rb.AddForce(Vector2.up * forcaPulo);
+
+        }
+
     }
 }
